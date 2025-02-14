@@ -1,4 +1,7 @@
+
 import requests
+
+import json
 
 def emotion_detector(text_to_analyse):
 
@@ -9,4 +12,4 @@ def emotion_detector(text_to_analyse):
     return response.text
 
 
-emotion_detector("I love this new technology")
+print(emotion_detector("I love this new technology"))
